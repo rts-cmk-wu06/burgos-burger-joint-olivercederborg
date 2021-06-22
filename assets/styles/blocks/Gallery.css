@@ -1,0 +1,30 @@
+.Gallery {
+	margin-top: 2rem;
+	display: flex;
+	gap: 3rem;
+}
+
+.Gallery__picture-section {
+	max-width: 50%;
+}
+
+.Gallery__text-section {
+	max-width: 50%;
+}
+
+.Gallery__big-image {
+	vertical-align: middle;
+	width: 100%;
+}
+
+.Gallery__thumbnails {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.Gallery__thumbnail {
+	width: 100%;
+	object-fit: cover;
+}

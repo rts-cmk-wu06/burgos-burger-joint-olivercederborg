@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home &mdash; BURGOS</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="assets/styles/index.css" />
+
+		<script src="assets/js/gallery.js" defer></script>
+		<script src="assets/js/recommended.js" defer></script>
+		<script src="assets/js/formular.js" defer></script>
+	</head>
+	<body>
+		<header class="Hero">
+			<nav class="Nav">
+				<section class="Nav__brand">
+					<figure class="Logo">
+						<div class="Logo__rectangle"></div>
+						<img
+							src="assets/img/burger_ikon@2x.png"
+							alt="Logo"
+							class="Logo__image"
+						/>
+					</figure>
+					<h1 class="Nav__h1 Brand">BURGOS</h1>
+				</section>
+
+				<ul class="Nav__ul">
+					<li class="Nav__li"><a href="#" class="Nav__anchor">Home</a></li>
+					<li class="Nav__li">
+						<a href="#" class="Nav__anchor">Galleri</a>
+					</li>
+					<li class="Nav__li">
+						<a href="#" class="Nav__anchor">Anbefalede</a>
+					</li>
+					<li class="Nav__li">
+						<a href="#" class="Nav__anchor">Kontakt</a>
+					</li>
+				</ul>
+			</nav>
+
+			<section class="Hero-ribbon">
+				<h2 class="Hero-ribbon__h2">Vælg din favorit Yummy</h2>
+				<a href="#" class="Hero-ribbon__cta">Start</a>
+			</section>
+		</header>
+
+		<main>
+			<section class="Ad Container">
+				<h3 class="Ad__h3">-20%</h3>
+				<h4 class="Ad__h4">Sommer-<br />Tilbud</h4>
+				<p class="Ad__p">
+					Quisque nec libero ut sapien dictum commodo. <br />
+					Nam ac felis id libero rutrum pharetra eu non lacus
+				</p>
+			</section>
+
+			<section class="Gallery-section Container">
+				<h2 class="Gallery-section__h2">Galleri</h2>
+				<section class="Gallery">
+					<div class="Gallery__picture-section">
+						<figure class="Gallery__big-figure">
+							<img
+								id="gallery-big-image"
+								src="assets/img/galleri05.jpg"
+								alt="Yummy"
+								class="Gallery__big-image"
+							/>
+						</figure>
+
+						<figure id="gallery-thumbnails" class="Gallery__thumbnails">
+							<img
+								src="assets/img/galleri05.jpg"
+								alt="Yummy"
+								class="Gallery__thumbnail"
+							/>
+							<img
+								src="assets/img/galleri06.jpg"
+								alt="Yummy2"
+								class="Gallery__thumbnail"
+							/>
+							<img
+								src="assets/img/galleri04.jpg"
+								alt="Yummy3"
+								class="Gallery__thumbnail"
+							/>
+						</figure>
+					</div>
+
+					<article class="Gallery__text-section Gallery-text">
+						<h3 class="Gallery-text__h3">Vores YUMMY opskrift</h3>
+						<p class="Gallery-text__p">
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the industry's
+							standard dummy text ever since the 1500s, when an unknown
+							printer took a galley of type and scrambled it to make a
+							type specimen book. It has survived not only five
+							centuries, but also the leap into electronic typesetting,
+							remaining essentially unchanged. It was
+							<span class="Gallery-text__p--bold"
+								>popularised in the 1960s</span
+							>
+							with the release of Letraset sheets containing Lorem Ipsum
+							passages, and more recently with desktop publishing
+							software like Aldus PageMaker including versions of Lorem
+							Ipsum.
+							<br />
+							<br />
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the industry's
+							standard dummy text ever since the 1500s, when an unknown
+							printer took a galley of type and scrambled it to make a
+							type specimen book. It has survived not only five
+							centuries, but also the leap into.
+						</p>
+					</article>
+				</section>
+			</section>
+
+			<section class="Recommended">
+				<div class="Container">
+					<h2 class="Recommended__h2">Anbefalede Yummies</h2>
+
+					<section
+						id="recommended-items"
+						class="Recommended__items"
+					></section>
+				</div>
+			</section>
+
+			<section class="Contact">
+				<h2 class="Contact__h2">Kontakt</h2>
+				<form id="contact-form" class="Contact-form">
+					<div class="Contact-form__input-wrapper">
+						<input
+							id="name-field"
+							type="text"
+							class="Contact-form__input"
+							placeholder="Navn"
+						/>
+						<p id="name-error" class="Contact-form__input-error"></p>
+					</div>
+					<div class="Contact-form__input-wrapper">
+						<input
+							id="email-field"
+							type="text"
+							class="Contact-form__input"
+							placeholder="Email"
+						/>
+						<p id="email-error" class="Contact-form__input-error"></p>
+					</div>
+					<div class="Contact-form__textarea-wrapper">
+						<textarea
+							id="message-field"
+							class="Contact-form__textarea"
+							placeholder="Skriv din besked her"
+						></textarea>
+						<p id="message-error" class="Contact-form__input-error"></p>
+					</div>
+					<input type="submit" value="Send" class="Contact-form__submit" />
+				</form>
+			</section>
+		</main>
+
+		<footer class="Footer">
+			<section class="Footer__content Container">
+				<img
+					src="assets/img/footer01.png"
+					alt="Burgos burger"
+					class="Footer__image"
+				/>
+
+				<article class="Footer__socials">
+					<h2 class="Footer__h2">
+						Følg os på <br />
+						Instagram
+					</h2>
+					<section class="Footer__instagram-widget">
+						<div class="Footer__instagram-logo"></div>
+						<a href="#" class="Footer__instagram-link">@BURGOS_YUMMIES</a>
+					</section>
+				</article>
+			</section>
+
+			<address class="Footer__address">
+				Yummy &copy; Burgos burgers ApS – All rights reserved Copyrights
+				2021
+			</address>
+		</footer>
+	</body>
+</html>

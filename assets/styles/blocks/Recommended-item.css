@@ -1,0 +1,55 @@
+.Recommended-item {
+	text-align: center;
+	color: var(--main-dark);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.Recommended-item__discount-badge {
+	font-size: 0.75rem;
+	color: white;
+	background: var(--dark-orange);
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	padding: 0.25rem 0.5rem;
+	border-radius: 100px;
+}
+
+.Recommended-item__image {
+	object-fit: cover;
+	object-position: bottom;
+}
+
+.Recommended-item__h4 {
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+.Recommended-item__p {
+	margin-top: 0.5rem;
+	font-weight: 600;
+}
+
+.Recommended-item__button {
+	padding: 0.5rem 1rem;
+	background: var(--brand-orange);
+	border-radius: 5px;
+	margin-top: 0.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 0.75rem;
+	color: var(--main-dark);
+	display: flex;
+	align-items: center;
+}
+
+.Recommended-item__button-icon {
+	height: 1rem;
+	width: 1rem;
+	margin-right: 0.5rem;
+}

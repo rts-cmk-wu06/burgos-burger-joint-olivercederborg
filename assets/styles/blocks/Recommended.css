@@ -1,0 +1,20 @@
+.Recommended {
+	margin-top: 8rem;
+	padding: 6rem 0;
+	background: linear-gradient(0deg, rgba(243, 115, 53, 1) 0%, rgba(251, 183, 49, 1) 100%);
+}
+
+.Recommended__h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2.5rem;
+	color: var(--main-dark);
+}
+
+.Recommended__items {
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: space-between;
+}

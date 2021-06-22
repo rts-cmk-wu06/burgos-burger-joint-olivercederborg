@@ -1,0 +1,19 @@
+.Gallery-text {
+	padding-top: 2rem;
+}
+
+.Gallery-text__h3 {
+	font-size: 1.5rem;
+	color: var(--main-dark);
+	font-weight: 400;
+}
+
+.Gallery-text__p {
+	margin-top: 1.5rem;
+	font-weight: 400;
+	color: var(--body-text);
+}
+
+.Gallery-text__p--bold {
+	font-weight: 700;
+}

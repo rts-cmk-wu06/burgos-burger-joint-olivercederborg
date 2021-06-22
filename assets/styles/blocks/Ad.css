@@ -1,0 +1,27 @@
+.Ad {
+	background-image: url("/assets/img/reklame01.jpg");
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+	padding: 3.5rem 3rem;
+	color: white;
+	margin-top: 8rem;
+}
+
+.Ad__h3 {
+	text-transform: uppercase;
+	font-size: 6rem;
+	font-weight: 900;
+}
+
+.Ad__h4 {
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+	font-weight: 900;
+}
+
+.Ad__p {
+	font-weight: 600;
+	margin-top: 1rem;
+}

@@ -1,0 +1,14 @@
+.Contact {
+	padding-top: 8rem;
+	padding-bottom: 12rem;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Contact__h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 2.5rem;
+	color: var(--main-dark);
+}

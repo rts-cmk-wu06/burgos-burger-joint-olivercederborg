@@ -1,0 +1,33 @@
+.Hero-ribbon {
+	background: linear-gradient(0deg, rgba(243, 115, 53, 0.85) 0%, rgba(251, 183, 49, 0.85) 100%);
+	width: 500px;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 5rem 2rem;
+	position: absolute;
+	top: 0;
+	left: 280px;
+}
+
+.Hero-ribbon__h2 {
+	color: white;
+	font-weight: 800;
+	font-size: 5rem;
+	text-transform: capitalize;
+}
+
+.Hero-ribbon__cta {
+	padding: 1rem 3.5rem;
+	background: var(--brand-orange);
+	text-decoration: none;
+	color: var(--main-dark);
+	text-transform: uppercase;
+	border-radius: 1rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin-top: 4rem;
+}

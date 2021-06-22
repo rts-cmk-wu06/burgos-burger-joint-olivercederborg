@@ -1,0 +1,31 @@
+.Nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 3rem 0;
+}
+
+.Nav__brand {
+	display: flex;
+	align-items: center;
+}
+
+.Nav__h1 {
+	margin-left: 0.5rem;
+}
+
+.Nav__ul {
+	display: flex;
+	list-style: none;
+}
+
+.Nav__li:not(:last-child) {
+	margin-right: 1.5rem;
+}
+
+.Nav__anchor {
+	font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}

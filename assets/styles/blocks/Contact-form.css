@@ -1,0 +1,52 @@
+.Contact-form {
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: flex-end;
+}
+
+.Contact-form__input-wrapper {
+	flex: 1;
+}
+
+.Contact-form__input {
+	width: 100%;
+	border: 2px solid #0c4c7b;
+	border-radius: 5px;
+	font-size: 1.25rem;
+	padding: 1rem 1.25rem;
+}
+
+.Contact-form__textarea-wrapper {
+	width: 100%;
+}
+
+.Contact-form__textarea {
+	width: 100%;
+	border: 2px solid #0c4c7b;
+	border-radius: 5px;
+	font-size: 1.25rem;
+	padding: 1rem 1.25rem;
+	font-family: "Nunito Sans";
+	min-height: 280px;
+}
+
+.Contact-form__submit {
+	font-size: 1.25rem;
+	background: var(--brand-orange);
+	color: var(--main-dark);
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 1rem 3rem;
+	border-radius: 3px;
+	font-weight: 500;
+}
+
+.Contact-form__input-error {
+	color: red;
+	font-weight: 600;
+	margin-top: 0.5rem;
+	font-size: 1rem;
+}
